@@ -67,7 +67,7 @@ public class Shop : MonoBehaviour
     public void UpdateUpgradeUI()
     {
         // Update the UI elements to reflect the current upgrade level and cost
-        int newSize = 18; // Replace this with the desired font size
+        int newSize = 18;
         if (upgradeLevel < 3)
         {
             upgradeLevelText.text = "Upgrade Level: " + upgradeLevel.ToString();
